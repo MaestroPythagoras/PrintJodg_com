@@ -1,11 +1,14 @@
 import React from 'react';
-import {View, Text} from 'react-native';
+import {NavigationContainer} from '@react-navigation/native';
+import Router from './router';
+import {AboutUs, AdminView} from './pages';
 
 const App = () => {
   return (
-    <View>
-      <Text>SEMANGAT QODIIIING</Text>
-    </View>
+    // <NavigationContainer>
+    //   <Router />
+    // </NavigationContainer>
+    <AdminView />
   );
 };
 
